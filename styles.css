@@ -31,7 +31,6 @@ article,
 .contact-section,
 .contact-form {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -118,7 +117,7 @@ p {
     text-align: center;
 }
 
-.card-title,
+.card-title, .contact-title,
 .article-title {
     font-size: 3rem;
     font-weight: 300;
@@ -184,7 +183,7 @@ p {
 .section-item {
     height: 400px;
     width: 80%;
-    min-width: 200px;
+    min-width: 350px;
     max-width: 400px;
     color: var(--primary-color);
     border-radius: var(--border-radius);
@@ -255,7 +254,7 @@ p {
     }
 
     .article-section,
-    .social-section {
+    .social-section, .article-body {
         flex-direction: column;
     }
 
